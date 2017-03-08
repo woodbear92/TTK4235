@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D6B2E1211E702F4E00C844E6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D6B2E1201E702F4E00C844E6 /* main.c */; };
+		D6B2E1321E702F6500C844E6 /* elev.c in Sources */ = {isa = PBXBuildFile; fileRef = D6B2E1281E702F6500C844E6 /* elev.c */; };
+		D6B2E1331E702F6500C844E6 /* elevatorControl.c in Sources */ = {isa = PBXBuildFile; fileRef = D6B2E12A1E702F6500C844E6 /* elevatorControl.c */; };
+		D6B2E1351E702F6500C844E6 /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = D6B2E12E1E702F6500C844E6 /* io.c */; };
+		D6B2E1361E702F6500C844E6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D6B2E1301E702F6500C844E6 /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +27,14 @@
 
 /* Begin PBXFileReference section */
 		D6B2E11D1E702F4E00C844E6 /* Heisprosjektet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Heisprosjektet; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6B2E1201E702F4E00C844E6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D6B2E1271E702F6500C844E6 /* channels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = channels.h; sourceTree = "<group>"; };
+		D6B2E1281E702F6500C844E6 /* elev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elev.c; sourceTree = "<group>"; };
+		D6B2E1291E702F6500C844E6 /* elev.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elev.h; sourceTree = "<group>"; };
+		D6B2E12A1E702F6500C844E6 /* elevatorControl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = elevatorControl.c; sourceTree = "<group>"; };
+		D6B2E12B1E702F6500C844E6 /* elevatorControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = elevatorControl.h; sourceTree = "<group>"; };
+		D6B2E12E1E702F6500C844E6 /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
+		D6B2E12F1E702F6500C844E6 /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
+		D6B2E1301E702F6500C844E6 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +67,14 @@
 		D6B2E11F1E702F4E00C844E6 /* Heisprosjektet */ = {
 			isa = PBXGroup;
 			children = (
-				D6B2E1201E702F4E00C844E6 /* main.c */,
+				D6B2E1271E702F6500C844E6 /* channels.h */,
+				D6B2E1281E702F6500C844E6 /* elev.c */,
+				D6B2E1291E702F6500C844E6 /* elev.h */,
+				D6B2E12A1E702F6500C844E6 /* elevatorControl.c */,
+				D6B2E12B1E702F6500C844E6 /* elevatorControl.h */,
+				D6B2E12E1E702F6500C844E6 /* io.c */,
+				D6B2E12F1E702F6500C844E6 /* io.h */,
+				D6B2E1301E702F6500C844E6 /* main.c */,
 			);
 			path = Heisprosjektet;
 			sourceTree = "<group>";
@@ -119,7 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B2E1211E702F4E00C844E6 /* main.c in Sources */,
+				D6B2E1361E702F6500C844E6 /* main.c in Sources */,
+				D6B2E1321E702F6500C844E6 /* elev.c in Sources */,
+				D6B2E1351E702F6500C844E6 /* io.c in Sources */,
+				D6B2E1331E702F6500C844E6 /* elevatorControl.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
